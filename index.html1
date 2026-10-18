@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>welcome to my website</h1>
+        <p>learn,explore and connect with us.</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="media.html">video</a>
+        </nav>
+        
+        
+    </header>
+    <main>
+        <div class="card">
+            <h2>about my website</h2>
+            <p>this is my first website built using html and css</p>
+            <img src="images.jpg"
+             alt="a beautiful landscape"
+             class="main-image">
+        </div>
+        <div class="card">
+            <h3>create an account</h3>
+            <form action="#" method="get">
+                <label for="name">Full name</label>
+                <input type="text" id="name"name
+                placeholder="Enter your full name" required>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email"
+                placeholder="Enter your email" required>
+
+                <label for="password">password</label>
+                <input type="password" id="password" name="password"
+                minlength="8" required>
+                
+                <label for="phone">phone Number</label>
+                <input type="tel" id="phone" name="phone"
+                placeholder="Enter your phone number" required>
+                
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required>
+
+                <button type="submit">Create account</button>
+            
+            
+                
+            </form>
+        </div>
+        <div class="card">
+            <h2>Explore more</h2>
+            <p>visit this webpage to find a video and a map</p>
+            <a  class="button-link" href="media.html">open video page</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 my website.All rights reserved</p>
+    </footer>
+    
+</body>
+</html>
